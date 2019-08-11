@@ -157,9 +157,9 @@ public class MultiTouchListener implements OnTouchListener {
                 if (deleteView != null && isViewInBounds(deleteView, x, y)) {
                     if (onMultiTouchListener != null)
                         onMultiTouchListener.onRemoveViewListener(view);
-                } else if (!isViewInBounds(photoEditImageView, x, y)) {
+                } /*else if (!isViewInBounds(photoEditImageView, x, y)) {
                     view.animate().translationY(0).translationY(0);
-                }
+                }*/
                 if (deleteView != null) {
                     deleteView.setVisibility(View.GONE);
                 }
