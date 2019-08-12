@@ -81,4 +81,11 @@ public class GradientTextView extends android.support.v7.widget.AppCompatTextVie
         colorArray[2] = color;
         invalidate();
     }
+
+    public void setGradientColor(int color1, int color2, int color3){
+        colorArray[0] = color1;
+        colorArray[1] = color2;
+        colorArray[2] = color3;
+        invalidate();
+    }
 }
