@@ -1,5 +1,6 @@
 package nurik.com.br.myeditor
 
+import android.graphics.Color
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -28,7 +29,9 @@ class MainActivity : AppCompatActivity(), MultiTouchListener.OnMultiTouchListene
     private fun addText() {
         gradientTextView.background = resources.getDrawable(R.drawable.rounded_border)
         addGesture(gradientTextView, object : MultiTouchListener.OnGestureControl {
-            override fun onClick() {}
+            override fun onClick() {
+                gradientTextView.setInitialColor(Color.BLACK)
+            }
             override fun onLongClick() {}
         })
     }

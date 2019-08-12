@@ -15,9 +15,7 @@ public class GradientTextView extends android.support.v7.widget.AppCompatTextVie
 
     private int[] colorArray = new int[]{
             Color.parseColor("#F97C3C"),
-            Color.parseColor("#FDB54E"),
             Color.parseColor("#64B678"),
-            Color.parseColor("#478AEA"),
             Color.parseColor("#8446CC")};
 
     public GradientTextView(Context context) {
@@ -67,5 +65,20 @@ public class GradientTextView extends android.support.v7.widget.AppCompatTextVie
     private void draw(){
         Shader textShader = new LinearGradient(0, 0, getWidth(), getTextSize(), colorArray, null, Shader.TileMode.CLAMP);
         getPaint().setShader(textShader);
+    }
+
+    public void setInitialColor(int color){
+        colorArray[0] = color;
+        invalidate();
+    }
+
+    public void setMidColor(int color){
+        colorArray[1] = color;
+        invalidate();
+    }
+
+    public void setFinalColor(int color){
+        colorArray[2] = color;
+        invalidate();
     }
 }
