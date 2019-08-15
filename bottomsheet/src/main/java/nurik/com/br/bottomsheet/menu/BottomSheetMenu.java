@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package nurik.com.br.bottomsheet.menu;
+package br.com.nurik.bottomsheet.menu;
 
 import android.content.ComponentName;
 import android.content.Context;

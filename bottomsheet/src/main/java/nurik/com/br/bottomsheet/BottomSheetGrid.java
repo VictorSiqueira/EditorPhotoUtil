@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package nurik.com.br.bottomsheet;
+package br.com.nurik.bottomsheet;
 
 import android.content.Context;
 import android.graphics.PorterDuff;

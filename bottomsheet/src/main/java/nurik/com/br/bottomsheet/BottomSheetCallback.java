@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package nurik.com.br.bottomsheet;
+package br.com.nurik.bottomsheet;
 
 /**
  * Date: 17 FEB 2018

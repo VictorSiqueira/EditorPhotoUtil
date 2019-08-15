@@ -27,7 +27,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
 
-        <nurik.com.br.interfaceUtils.text.GradientTextView
+        <br.com.nurik.interfaceUtils.text.GradientTextView
                 android:id="@+id/gradientTextView"
                 app:initialColor="@color/colorAccent"
                 app:midColor="@color/colorPrimary"

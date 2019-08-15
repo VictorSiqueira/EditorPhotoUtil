@@ -1,4 +1,4 @@
-package nurik.com.br.bottomsheet;
+package br.com.nurik.bottomsheet;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

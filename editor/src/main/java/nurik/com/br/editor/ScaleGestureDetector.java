@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package nurik.com.br.editor;
+package br.com.nurik.editor;
 
 import android.util.Log;
 import android.view.MotionEvent;

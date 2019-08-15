@@ -1,4 +1,4 @@
-package nurik.com.br.editor;
+package br.com.nurik.editor;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

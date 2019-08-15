@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package nurik.com.br.bottomsheet;
+package br.com.nurik.bottomsheet;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -77,7 +77,7 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import nurik.com.br.bottomsheet.menu.BottomSheetMenu;
+import br.com.nurik.bottomsheet.menu.BottomSheetMenu;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.util.ArrayList;

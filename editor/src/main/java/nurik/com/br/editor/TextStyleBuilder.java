@@ -1,4 +1,4 @@
-package nurik.com.br.editor;
+package br.com.nurik.editor;
 
 import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;

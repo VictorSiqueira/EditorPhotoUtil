@@ -1,4 +1,4 @@
-package nurik.com.br.editor;
+package br.com.nurik.editor;
 
 /**
  * Created on 1/17/2018.

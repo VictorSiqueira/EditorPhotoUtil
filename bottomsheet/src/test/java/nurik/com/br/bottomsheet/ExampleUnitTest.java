@@ -1,4 +1,4 @@
-package nurik.com.br.bottomsheet;
+package br.com.nurik.bottomsheet;
 
 import org.junit.Test;
 
