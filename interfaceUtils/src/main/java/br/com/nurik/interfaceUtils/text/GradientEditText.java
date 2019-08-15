@@ -11,7 +11,7 @@ import android.util.AttributeSet;
 import br.com.nurik.interfaceUtils.R;
 
 
-public class GradientEditText extends android.support.v7.widget.AppCompatTextView {
+public class GradientEditText extends android.support.v7.widget.AppCompatEditText {
 
     private int[] colorArray = new int[]{
             Color.parseColor("#F97C3C"),

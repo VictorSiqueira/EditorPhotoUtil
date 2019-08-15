@@ -20,6 +20,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
+
+
         <ImageView
                 android:id="@+id/photo_raw"
                 android:tag="baselayer"
@@ -42,6 +44,16 @@
                 android:src="@mipmap/ic_launcher"
                 android:id="@+id/trash"
                 android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <br.com.nurik.interfaceUtils.text.GradientEditText
+                android:backgroundTint="@android:color/transparent"
+                android:text="AAAAAAAAA"
+                app:initialColor="@color/colorAccent"
+                app:midColor="@color/colorPrimary"
+                app:finalColor="@color/colorPrimaryDark"
+                android:layout_centerInParent="true"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
 
