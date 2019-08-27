@@ -1,4 +1,4 @@
-package br.com.nurik.interfaceUtils;
+package br.com.nurik.interfaceUtils.photoEditor;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -19,7 +19,7 @@ import javax.microedition.khronos.opengles.GL10;
 import java.util.Map;
 
 import static android.media.effect.EffectFactory.*;
-import static br.com.nurik.interfaceUtils.PhotoFilter.NONE;
+import static br.com.nurik.interfaceUtils.photoEditor.PhotoFilter.NONE;
 
 /**
  * <p>

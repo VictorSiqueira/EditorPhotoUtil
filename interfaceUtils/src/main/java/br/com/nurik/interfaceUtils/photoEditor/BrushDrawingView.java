@@ -1,4 +1,4 @@
-package br.com.nurik.interfaceUtils;
+package br.com.nurik.interfaceUtils.photoEditor;
 
 import android.annotation.SuppressLint;
 import android.content.Context;

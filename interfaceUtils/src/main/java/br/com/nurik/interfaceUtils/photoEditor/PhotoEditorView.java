@@ -1,4 +1,4 @@
-package br.com.nurik.interfaceUtils;
+package br.com.nurik.interfaceUtils.photoEditor;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -14,6 +14,7 @@ import android.util.Log;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
+import br.com.nurik.interfaceUtils.R;
 
 /**
  * <p>

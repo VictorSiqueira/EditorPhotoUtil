@@ -1,4 +1,4 @@
-package br.com.nurik.interfaceUtils;
+package br.com.nurik.interfaceUtils.photoEditor;
 
 import android.graphics.Bitmap;
 import android.support.annotation.IntRange;

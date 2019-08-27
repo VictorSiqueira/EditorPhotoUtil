@@ -1,4 +1,4 @@
-package br.com.nurik.interfaceUtils;
+package br.com.nurik.interfaceUtils.photoEditor;
 
 /**
  * Created on 1/17/2018.

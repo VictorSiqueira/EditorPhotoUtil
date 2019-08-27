@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package br.com.nurik.interfaceUtils;
+package br.com.nurik.interfaceUtils.photoEditor;
 
 import android.opengl.GLES20;
 
